@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(217, 226, 226);
+}
+.app-container {
+  width: 900px;
+  height: 600px;
+  border: 1px solid rgb(150, 101, 101);
+  margin: 100px auto;
+  background-image: linear-gradient(
+    to right top,
+    #a61367,
+    #87276f,
+    #67306e,
+    #493366,
+    #323257,
+    #2c3a5b,
+    #29415c,
+    #2c485c,
+    #325f72,
+    #397786,
+    #468f96,
+    #59a8a3
+  );
+  box-shadow: 10px 10px 30px rgb(94, 82, 82);
+  border-radius: 5px;
+  position: sticky;
+}
+.app-header-links {
+  color: white;
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.navegation-links {
+  list-style: none;
+  float: right;
+  display: flex;
+}
+.navegation-links li {
+  margin: 10px;
+}
+.navegation-links li a {
+  text-decoration: none;
+  color: rgb(129, 68, 68);
+}
+
+#sub-links-list {
+  color: #01ddfa;
+  display: flex;
+  list-style: none;
+}
+#sub-links-list li {
+  margin: 5px;
+}
+
+/* Incompleted tasks page */
+
+.user-input-field {
+  margin: 40px;
+}
+button {
+  height: 33px;
+  padding: 9px;
+  color: #e6ffff;
+  background-color: rgb(212, 194, 29);
+  border-radius: 5px;
+  border-block-start: none;
+  cursor: pointer;
+  border-style: initial; /*retira as bordas esquisitas pre definidas! */
+  margin: 10px;
+}
+#text-input {
+  height: 33px;
+  border-radius: 5px;
+  color: #aaaaac;
+  border-style: initial; /*retira as bordas esquisitas pre definidas! */
+}
+.list-content {
+  margin: 40px;
+}
+.items:hover {
+  box-shadow: 5px 5px 10px rgb(212, 194, 29);
+  cursor: pointer;
+}
+.items[hide="0"] {
+  display: none;
+}
+hr {
+  border-width: 0;
+  height: 2px;
+  background-color: rgb(212, 194, 29);
+  margin-bottom: 20px;
+}
+.correct-icon {
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+.navegation-links a[value="1"] {
+  color: white;
+}
+.navegation-links a[value="2"] {
+  color: white;
+}
+
+.trash-icon {
+  float: right;
+  margin: 2px -22px;
+}
+.line-text {
+  color: #01ddfa;
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px;
+}
+
+/* Completed tasks page */
+.completed-task-title {
+  color: white;
+}
+.done-icon {
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
