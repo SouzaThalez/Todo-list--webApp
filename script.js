@@ -11,37 +11,6 @@ let lastElementLi = subLinksLi.lastElementChild;
 
 // SELECTORS for manipulation ------------
     let itemsV = []; //Creating new array of Items to pass the divItems to it
-   /* 
-    let clientsV= [];
-    const portifolio = {
-        person: 'jhon',
-        projects: 5,
-        available: true,
-
-    };
-    clientsV.push(portifolio);
-    let stringData =  JSON.stringify(clientsV);
-    let originalData = JSON.parse(stringData);
-    localStorage.setItem('mydata',stringData);
-
-
-    count.addEventListener('click',numberOfClicks);
-    function numberOfClicks(){
-            countNumber++
-            localStorage.setItem('num',countNumber);
-            //let stringData = JSON.stringify(countNumber)
-            let getDataFrom =  localStorage.getItem('num');
-            //let originalData =  JSON.parse(getDataFrom);
-            let displaytext = document.querySelector('.display-text');
-            displaytext.innerHTML = getDataFrom;
-        }
-
-
-        let getDataFrom =  localStorage.getItem('num');
-        //let originalData =  JSON.parse(getDataFrom);
-        let displaytext = document.querySelector('.display-text');
-        displaytext.innerHTML = getDataFrom;
-        */
 
 // -------- Pages EVENT TRIGGER ------------------
     incompletedTaskpag.addEventListener('click', function() {
