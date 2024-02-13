@@ -1,9 +1,9 @@
-#Introduction
+# Introduction
 
 I am very proud of this project, since it was one of my first atempt in to the world of coding! 
 It's about a list of items. You can add and remove items from the list as you wish and later you can follow up on your completed tasks.
 
-##Technologies used
+## Technologies used
 
 In this project i used vanila JavaScript for almost everything. And as far as styling goes i used normal CSS and material CSS for more classic Design features.
 
@@ -40,6 +40,14 @@ Here's the steps:
   http-server
 ```
  ## Preview
+ This is what the applicaton looks like
+
 ![Application layout](images/homepage.png)
 
+You can add tasks ...
 
+![Application layout](images/homepage2.png)
+
+You can view them later on your completed tasks page 
+
+![Application layout](images/homepage3.png)
